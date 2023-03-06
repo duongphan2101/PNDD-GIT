@@ -806,5 +806,129 @@
         <!-- <button style="font-size: 25px; border-radius: 10px;">Submit</button> -->
     </form>
     </div>
+    <!--BAI14-->
+    <hr>
+    <div>
+        <h1>Contact Us</h1>
+        <fieldset>
+            <legend>Your message:</legend>
+            <table>
+                <tr>
+                    <td><label for="emailTo">To</label></td>
+                    <td><input type="text" name="txtTo" readonly="readonly"
+                        id="emailTo" size="20" value="Example Cafe"></td>
+                </tr>
+                <tr>
+                    <td><label for="emailFrom">Your email</label></td>
+                    <td><input type="text" name="txtFrom" tabindex="1"
+                        id="emailFrom" size="20" maxlength="250"></td>
+                </tr>
+                <tr>
+                    <td><label for="emailBody">Message</label></td>
+                    <td><textarea name="txtBody" id="emailBody" cols="50" rows="10"
+                        tabindex="2">
+                    </textarea></td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend>How you found us:</legend>
+            <table>
+                <tr>
+                    <td><label for="google">How did you hear <br>of us</label></td>
+                    <td><select name="ggl" id="google">
+                        <option value="1">Google</option>
+                        <option value="2">FB</option>
+                        <option value="3">Gmail</option>
+                    </select>
+                </tr>
+                <tr>
+                    <td><label for="letter">Newsletter</label></td>
+                    <td><input type="checkbox" name="txtletter" id="letter">Ensure this box is checked if you would like to <br> receive email updates</td>
+                </tr>
+            </table>
+        </fieldset>
+        <input type="submit" value="Send message">
+        <hr>
+        <fieldset>
+            <legend><i>Contact Information</i></legend>
+            <table>
+                <tr>
+                    <td><label for="fname">First name:</label></td>
+                    <td><input type="text" name="txtfname" id="fname"></td>
+                </tr>
+                <tr>
+                    <td><label for="lasname">Last name:</label></td>
+                    <td><input type="text" name="txtlasname" id="lasname"></td>
+                </tr>
+                <tr>
+                    <td><label for="email">E-mail:</label></td>
+                    <td><input type="text" name="txtemail" id="email"></td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend><i>Competition Question</i></legend>
+            <table>
+                <p>How tall is the Eiffel Tower in Paris, France</p>
+                <tr><td><input type="radio" name="txt584" id="584"> 584 ft</td></tr>
+                <tr><td><input type="radio" name="txt784" id="784"> 784 ft</td></tr>
+                <tr><td><input type="radio" name="txt984" id="984"> 984 ft</td></tr>
+                <tr><td><input type="radio" name="txt1184" id="1184"> 1184 ft</td></tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend><i>Tiebreaker Question</i></legend>
+            <table>                
+                <tr>
+                    <label for="textbox" >In 25 words or less, say why you would like to win $10,000:</label>
+                    <td><textarea name="textbox" id="textbox" cols="50" rows="10"tabindex="2"></textarea></td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend><i>Enter competition</i></legend>
+            <input type="button" value="Enter Compititions">
+        </fieldset>
+    </div>
+    <!--BAI16-->
+    <hr>
+    <div>
+        <form action="nhap">
+            <h1>Travel reservation form</h1>
+            <p style="font-size: 22px;"><b>* denotes mandotory</b></p>
+                    <label for="fullname">Full name*:</label> <br>
+                    <input type="text" name="txtfullname" id="fullname" 
+                        title="Firstname LastName" placeholder="Firstname LastName" size="25" maxlength="15"><br>
+
+                    <label for="email">Email address*:</label><br>
+                    <input type="text" name="txtemailaddress" id="email" 
+                        title="EMAIL ADDRESS" placeholder="EMAIL ADDRESS" size="25" maxlength="15"><br>
+                    
+                    <label for="selecttour">Select Tour Package*:</label><br>
+                    <select name="tour" id="selecttour">
+                        <option value="1">Goa</option>
+                        <option value="2">Tokyo</option>
+                        <option value="3">HCM City</option>
+                    </select><br>
+                    <label for="date">Arrival date*:</label><br>
+                    <input type="datetime" name="txtdate" id="date" placeholder="d/m/y"><br>
+                    <label for="number">Number of persons*:</label><br>
+                    <input type="number" name="txtnum" id="number" placeholder="UNKOWN_TYPE"><br>
+                    <label for="select">What would you want to avail?*</label><br>
+                    Boarding <input type="checkbox"><br>
+                    Foodding <input type="checkbox"><br>
+                    Sight seeing <input type="checkbox"><br>
+                    <label for="discout">Discout Coupon code:</label><br>
+                    <input type="text" name="txtdiscout" id="discout" placeholder="UNKOWN_TYPE"><br>
+                    <label for="">Terms and conditions*</label><br>
+                    <input type="radio"> I argee
+                    <input type="radio"> I disagree
+                    <br>
+                    <input type="button" value="Complete reservation">
+            
+        </form>
+    </div>
+    <!--BAI17-->
 </body>
 </html>
