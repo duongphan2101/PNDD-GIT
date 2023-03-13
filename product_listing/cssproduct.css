@@ -1,0 +1,279 @@
+#header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5px;
+    /* border-bottom: 1px solid black; */
+    /* background-color: antiquewhite; */
+}
+#left{
+    display: flex;
+    width: 350px;
+    justify-content: space-around;
+}
+#right{
+    display: flex;
+    width: 350px;
+    justify-content: space-around;
+    line-height: 50px;
+}
+.rightitemIMG{
+    display: flex;
+    position: relative;
+    line-height: 50px;
+    width: 200px;
+    border: 1px solid lightslategray;
+    border-radius: 10px;
+    justify-content: space-around;
+    left: -25px;
+}
+.rightitemIMG1{
+    top: 8px;
+    position: relative;
+} 
+.rightitemCart{
+    position: relative;
+    top: 10px;
+}
+.rightitem{
+    position: relative;
+    top: 8px;
+}
+input{
+    border: hidden;
+    /* background-color: antiquewhite; */
+}
+#center{
+    position: relative;
+    display: contents;
+    margin: 10px;
+}
+.text{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    font-size: 20px;
+}
+#selective{
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    justify-content: space-around;
+}
+#selecleft{
+    position: relative;
+    display: flex;
+    /* justify-content: space-around; */
+    width: 550px;
+    color: green;
+    font-size: 20px;
+    right: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* border: 1px solid black; */
+}
+.Face{
+    position: relative;
+    border-left: 2px solid green;
+    border-right: 2px solid green;
+    width: 150px;
+    text-align: center;
+    /* border: 1px solid black; */
+    border-radius: 3px;
+}
+.allproducts{
+    position: relative;
+    width: 150px;
+    text-align: center;
+    /* border: 1px solid black; */
+    border-radius: 3px;
+}
+.Body{
+    position: relative;
+    width: 150px;
+    text-align: center;
+    /* border: 1px solid black; */
+    border-radius: 3px;
+}
+.Face:hover{
+    background-color: green;
+    color: aliceblue;
+    border: hidden;
+}
+.allproducts:hover{
+    background-color: green;
+    color: aliceblue;
+    border: hidden;
+}
+.Body:hover{
+    background-color: green;
+    color: aliceblue;
+    border: hidden;
+}
+#selecright{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+    color: green;
+    font-size: 30px;
+    left: 20px;
+}
+.selectrightitem{
+    display: flex;
+    position: relative;
+    line-height: 50px;
+    width: 300px;
+    justify-content: space-around;
+    left: -25px;
+    border-bottom: 1px solid grey;
+}
+.sortby{
+    position: relative;
+    border: 1px solid rgb(240, 240, 240);
+    border-radius: 5px;
+    width: 80px;
+    height: 50px;
+    line-height: 50px;
+    background-color: rgb(240, 240, 240);
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+.sb1{
+    position: absolute;
+    right: 5px;
+    top: 6px;
+}
+#row1{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+}
+.spire{
+    display: flex;
+    position: relative;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* font-size: 25px; */
+}
+.spire1{
+    position: relative;
+    top: -25px;
+    font-size: 20px;
+}
+.spire2{
+    position: relative;
+    top: -10px;
+    left: 10px;
+    color: gray;
+    font-size: 20px;
+}
+.spire3{
+    position: relative;
+    right: -100px;
+}
+#row2{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+}
+#row3{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+}
+#slide{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    margin: auto;
+}
+.value{
+    position: relative;
+    color: gray;
+    width: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+.value:hover{
+    background-color: rgb(216, 216, 216);
+    color: green;
+    border-radius: 90px;
+}
+.slideleft{
+    position: relative;
+    top: 8px;
+}
+.slideright{
+    position: relative;
+    top: 8px;
+}
+#final{
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    margin-top: 10px;
+    /* display: flex; */
+}
+#left_final{
+    color: white;
+    position: relative;
+    display: flex;
+
+    left: 5%;
+    top: 15%;
+    justify-content: space-between;
+    width: 450px;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.textabout{
+    font-family: 'Courier New', Courier, monospace;
+}
+.texthelp{
+    font-family: 'Courier New', Courier, monospace;
+}
+.textcontact{
+    font-family: 'Courier New', Courier, monospace;
+}
+.langues{
+    position: relative;
+    width: 10px;
+    top: 70px;
+    left: 5%;
+}
+#right_final{
+    color: white;
+    position: relative;
+    right: -60%;
+    bottom: 50%;
+    width: 450px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}   
+.txt{
+    font-family: 'Courier New', Courier, monospace;
+}
+.input_rightfinal{
+    position: relative;
+    display: flex;
+    border: 1px solid white;
+    width: 368px;
+    border-radius: 5px;
+    /* background-color: black;  */
+}
+.logo_rightfinal{
+    margin-top: 10px;
+    position: relative;
+    justify-content: space-around;
+}
+.none{
+    font-size: 14px;
+    font-family: 'Courier New', Courier, monospace; 
+}
+
+
+
