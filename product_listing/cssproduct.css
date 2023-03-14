@@ -261,7 +261,7 @@ input{
     position: relative;
     display: flex;
     border: 1px solid white;
-    width: 368px;
+    width: 320px;
     border-radius: 5px;
     /* background-color: black;  */
 }
@@ -273,6 +273,7 @@ input{
 .none{
     font-size: 14px;
     font-family: 'Courier New', Courier, monospace; 
+    /* background-color: aliceblue; */
 }
 
 
